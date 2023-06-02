@@ -49,6 +49,14 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dadc",endColorstr="#00d4ff",GradientType=1);
   }
 
+  .bottomFade2 {
+    background: rgb(240,241,243);
+    background: -moz-linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
+    background: -webkit-linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
+    background: linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f1f3",endColorstr="#1d2021",GradientType=1); 
+  }
+
   .topFade {
     background: rgb(240, 241, 243);
     background: -moz-linear-gradient(
@@ -67,6 +75,14 @@ body {
       rgba(29, 32, 33, 0) 25%
     );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f1f3",endColorstr="#1d2021",GradientType=1);
+  }
+
+  .topFade2 {
+    background: rgb(217,218,220);
+    background: -moz-linear-gradient(180deg, rgba(217,218,220,1) 0%, rgba(29,32,33,0) 68%);
+    background: -webkit-linear-gradient(180deg, rgba(217,218,220,1) 0%, rgba(29,32,33,0) 68%);
+    background: linear-gradient(180deg, rgba(217,218,220,1) 0%, rgba(29,32,33,0) 68%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dadc",endColorstr="#1d2021",GradientType=1);  
   }
 
   ._Shoulders {

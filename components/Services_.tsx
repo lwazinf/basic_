@@ -26,7 +26,7 @@ const Services_ = ({}: Services_Props) => {
         
       </div>
       <div
-        className={`w-full h-full flex flex-row justify-center items-center relative bottom-[90px]`}
+        className={`w-full h-full flex flex-row justify-center items-center relative xl:bottom-[90px] bottom-[127px]`}
       >
         {
           [{url: "https://images.pexels.com/photos/4792480/pexels-photo-4792480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", data: 'Blueprints'}, {url: "https://images.pexels.com/photos/1336211/pexels-photo-1336211.jpeg?auto=compress&cs=tinysrgb&w=1600", data: 'Drone Footage'}].map((obj_) => {
