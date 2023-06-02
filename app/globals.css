@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Bungee&family=Lilita+One&family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&family=Bungee&family=Lilita+One&family=Righteous&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -30,27 +30,51 @@ body {
 
 @layer components {
   .bottomFade {
-    background: rgb(217,218,220);
-    background: -moz-linear-gradient(0deg, rgba(217,218,220,1) 0%, rgba(0,212,255,0) 25%);
-    background: -webkit-linear-gradient(0deg, rgba(217,218,220,1) 0%, rgba(0,212,255,0) 25%);
-    background: linear-gradient(0deg, rgba(217,218,220,1) 0%, rgba(0,212,255,0) 25%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dadc",endColorstr="#00d4ff",GradientType=1); 
+    background: rgb(217, 218, 220);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(217, 218, 220, 1) 0%,
+      rgba(0, 212, 255, 0) 25%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(217, 218, 220, 1) 0%,
+      rgba(0, 212, 255, 0) 25%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(217, 218, 220, 1) 0%,
+      rgba(0, 212, 255, 0) 25%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dadc",endColorstr="#00d4ff",GradientType=1);
   }
 
   .topFade {
-    background: rgb(240,241,243);
-    background: -moz-linear-gradient(180deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    background: -webkit-linear-gradient(180deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    background: linear-gradient(180deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f1f3",endColorstr="#1d2021",GradientType=1); 
+    background: rgb(240, 241, 243);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 1) 0%,
+      rgba(29, 32, 33, 0) 25%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 1) 0%,
+      rgba(29, 32, 33, 0) 25%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(240, 241, 243, 1) 0%,
+      rgba(29, 32, 33, 0) 25%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f1f3",endColorstr="#1d2021",GradientType=1);
   }
 
   ._Shoulders {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: "Big Shoulders Text", cursive;
   }
 
   ._Bungee {
-    font-family: 'Bungee', cursive;
+    font-family: "Bungee", cursive;
   }
 
   ::selection {
@@ -58,10 +82,39 @@ body {
   }
 
   ._Lilita {
-    font-family: 'Lilita One', cursive;
+    font-family: "Lilita One", cursive;
   }
 
   ._Righteous {
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
+  }
+
+  .topPol {
+    width: 0;
+    border-bottom: 60px solid;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+  }
+
+  .bottomPol {
+    width: 0;
+    border-top: 60px solid;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+  }
+
+  .midPol {
+    width: 0;
+    border-bottom: 60px solid;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+
+    width: 104px;
+    height: 60px;
+
+    width: 0;
+    border-top: 60px solid;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
   }
 }
