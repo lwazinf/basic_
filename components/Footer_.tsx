@@ -10,7 +10,9 @@ interface Footer_Props {}
 
 const Footer_ = ({}: Footer_Props) => {
   return (
-    <div
+    <div className={`w-full min-h-[300px] flex flex-col justify-center items-center`}>
+      
+      <div
       className={`bg-[#252422] w-full h-[300px] flex flex-row justify-center items-center`}
     >
       <div
@@ -45,7 +47,7 @@ const Footer_ = ({}: Footer_Props) => {
           <p className={`mt-auto text-[15px] font-black text-orange-200 cursor-default`}>
             Move faster through us.
           </p>
-          <p className={`text-[13px] font-medium opacity-70 cursor-default`}>
+          <p className={`text-[13px] font-medium text-orange-50 cursor-default`}>
             Move faster through us. Move faster through us.
           </p>
         </div>
@@ -70,7 +72,7 @@ const Footer_ = ({}: Footer_Props) => {
           />
           <div className={`w-full text-right mt-auto flex flex-row justify-center items-center`}>
           <p
-            className={`w-full text-[13px] font-medium opacity-70 cursor-default`}
+            className={`w-full text-[13px] font-medium text-orange-50 cursor-default italic`}
           >
             Move faster through us. Move faster through us.
           </p>
@@ -81,6 +83,7 @@ const Footer_ = ({}: Footer_Props) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -10,7 +10,6 @@ const Services_ = ({}: Services_Props) => {
   return (
     <div
       className={`w-full h-[70vh] flex flex-col justify-center items-center relative`}
-      id={`services`}
     >
       {/* <Element name="services" className="element"></Element> */}
       <div
@@ -39,6 +38,10 @@ const Services_ = ({}: Services_Props) => {
       <div
         className={`w-[160px] h-full absolute top-[-40px] left-0 flex flex-col justify-center items-center`}
       >
+        <div
+        className={`w-0 h-0 absolute top-[-125px] left-0 flex flex-col justify-center items-center`}
+        id={`services`}
+      />
         <p
           className={`xl:text-[30px] lg:text-[30px] text-[30px] text-black/20 text-center leading-[.8] tracking-[-0.0em] _Bungee cursor-default -rotate-90 opacity-0 lg:opacity-100`}
         >

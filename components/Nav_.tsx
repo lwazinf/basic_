@@ -73,22 +73,28 @@ const Menu_ = ({}: Menu_Props) => {
             offset={-150}
             duration={500}
           > */}
-      <p
-        className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
-      >
-        Home
-      </p>
+      <a href={`#hero`}>
+        <p
+          className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
+        >
+          Home
+        </p>
+      </a>
       {/* </Link> */}
-      <p
-        className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
-      >
-        Services
-      </p>
-      <p
-        className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
-      >
-        Case Studies
-      </p>
+      <a href={`#services`}>
+        <p
+          className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
+        >
+          Services
+        </p>
+      </a>
+      <a href={`#study`}>
+        <p
+          className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
+        >
+          Case Studies
+        </p>
+      </a>
       <p
         className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
       >

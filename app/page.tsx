@@ -11,14 +11,14 @@ export default function Home() {
   let { scrollYProgress } = useScroll();
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   return (
-    <main className="flex flex-col items-center justify-between bg-[#d9dadc]">
+    <main className="flex flex-col items-center justify-between bg-[#d9dadc]" id={`hero`}>
       <motion.div style={{ y }} className={``}>
         <Hero_ />
       </motion.div>
       <div
         className={`w-full min-h-[100vh] flex flex-col justify-start items-center`}
       >
-        <Services_ />
+        <Services_/>
         <Study_ />
         <Footer_ />
       </div>
