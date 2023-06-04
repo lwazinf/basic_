@@ -1,10 +1,17 @@
+'use client';
+import { motion, useScroll, useTransform } from "framer-motion";
 import Social_ from "./Social_";
 
 interface HeroVisuals_Props {}
 
 const HeroVisuals_ = ({}: HeroVisuals_Props) => {
+
+  // let { scrollYProgress } = useScroll()
+  // let y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
+
   return (
-    <div
+    <motion.div
+    // style={{ y }}
       className={`w-full 2xl:min-h-screen min-h-[20px] flex flex-col justify-end items-center relative overflow-hidden`}
     >
       <img
@@ -14,7 +21,7 @@ const HeroVisuals_ = ({}: HeroVisuals_Props) => {
       />
       <div className={`w-full min-h-screen absolute bottom-0 bottomFade`} />
       <div className={`w-full min-h-screen absolute top-0 topFade 3xl:opacity-0 opacity-100`} />
-    </div>
+    </motion.div>
   );
 };
 

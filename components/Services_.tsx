@@ -9,12 +9,12 @@ interface Services_Props {}
 const Services_ = ({}: Services_Props) => {
   return (
     <div
-      className={`w-full h-[70vh] bg-[#d9dadc] flex flex-col justify-center items-center relative`}
+      className={`w-full h-[70vh] flex flex-col justify-center items-center relative`}
       id={`services`}
     >
       {/* <Element name="services" className="element"></Element> */}
       <div
-        className={`w-full h-full flex flex-row justify-center items-center relative bottom-[0px]`}
+        className={`w-[90em] h-full flex flex-row justify-center items-center relative bottom-[0px]`}
       >
         {
           [{url: "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", data: 'Supervision'}, {url: "https://images.pexels.com/photos/2678104/pexels-photo-2678104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", data: 'Road Works'}, {url: "https://images.pexels.com/photos/5079402/pexels-photo-5079402.jpeg?auto=compress&cs=tinysrgb&w=1600", data: 'Drainage'}, ].map((obj_) => {

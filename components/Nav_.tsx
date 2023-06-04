@@ -6,10 +6,7 @@ import {
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Scroll from "react-scroll";
-import {
-  Link,
-  animateScroll as scroll,
-} from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 interface Nav_Props {}
 
@@ -76,11 +73,11 @@ const Menu_ = ({}: Menu_Props) => {
             offset={-150}
             duration={500}
           > */}
-        <p
-          className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
-        >
-          Home
-        </p>
+      <p
+        className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
+      >
+        Home
+      </p>
       {/* </Link> */}
       <p
         className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
