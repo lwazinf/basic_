@@ -13,7 +13,7 @@ const Study_ = ({}: Study_Props) => {
         src={`https://images.pexels.com/photos/4254898/pexels-photo-4254898.jpeg?auto=compress&cs=tinysrgb&w=1600`}
       />
       <div
-        className={`w-full h-full absolute top-0 left-0 bg-white/50 backdrop-blur-md`}
+        className={`w-full h-full absolute top-0 left-0 bg-white/20 backdrop-blur-md`}
       />
       <div
         className={`w-full h-full absolute top-0 left-0 flex flex-col justify-center items-center topFade2`}
@@ -46,7 +46,7 @@ interface InnerContent_Props {}
 const InnerContent_ = ({}: InnerContent_Props) => {
   return (
     <div
-      className={`w-[90em] h-full relative flex flex-col justify-center items-center text-black/70 text-left`}
+      className={`w-[90em] h-full relative flex flex-row justify-center items-center text-black/70`}
     >
       
     </div>

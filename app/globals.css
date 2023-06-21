@@ -58,11 +58,11 @@ html {
   }
 
   .bottomFade2 {
-    background: rgb(240,241,243);
-    background: -moz-linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    background: -webkit-linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    background: linear-gradient(0deg, rgba(240,241,243,1) 0%, rgba(29,32,33,0) 25%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f0f1f3",endColorstr="#1d2021",GradientType=1); 
+    background: rgb(246,255,255);
+    background: -moz-linear-gradient(0deg, rgba(246,255,255,1) 0%, rgba(29,32,33,0) 60%);
+    background: -webkit-linear-gradient(0deg, rgba(246,255,255,1) 0%, rgba(29,32,33,0) 60%);
+    background: linear-gradient(0deg, rgba(246,255,255,1) 0%, rgba(29,32,33,0) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6ffff",endColorstr="#1d2021",GradientType=1); 
   }
 
   .topFade {
@@ -93,16 +93,16 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dadc",endColorstr="#1d2021",GradientType=1);  
   }
 
+  ::selection {
+    @apply bg-orange-500;
+  }
+  
   ._Shoulders {
     font-family: "Big Shoulders Text", cursive;
   }
 
   ._Bungee {
     font-family: "Bungee", cursive;
-  }
-
-  ::selection {
-    @apply bg-orange-500;
   }
 
   ._Lilita {

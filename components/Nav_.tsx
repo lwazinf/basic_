@@ -5,8 +5,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as Scroll from "react-scroll";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 interface Nav_Props {}
 
