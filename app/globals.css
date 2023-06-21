@@ -37,6 +37,18 @@ html {
 }
 
 @layer components {
+  input,
+  textarea {
+    border: none;
+    resize: none;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    background-color: rgb(0 0 0 / 0.3);
+  }
+  
   .bottomFade {
     background: rgb(217, 218, 220);
     background: -moz-linear-gradient(

@@ -46,7 +46,7 @@ interface InnerContent_Props {}
 const InnerContent_ = ({}: InnerContent_Props) => {
   return (
     <div
-      className={`w-[90em] h-full relative flex flex-row justify-center items-center text-black/70`}
+      className={`lg:w-[90em] w-full h-full relative flex flex-row justify-center items-center text-black/70`}
     >
       
     </div>

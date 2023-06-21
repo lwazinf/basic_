@@ -93,11 +93,13 @@ const Menu_ = ({}: Menu_Props) => {
           Case Studies
         </p>
       </a>
-      <p
-        className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
-      >
-        About
-      </p>
+      <a href={`#cta`}>
+        <p
+          className={`text-[14px] text-black/60 mx-4 hover:text-orange-600 hover:font-medium transition-all duration-200 cursor-pointer`}
+        >
+          MOVE NOW
+        </p>
+      </a>
     </div>
   );
 };
