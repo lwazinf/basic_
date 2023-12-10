@@ -16,10 +16,12 @@ const Nav_ = ({}: Nav_Props) => {
       <div
         className={`w-[200px] h-full hover:h-[120%] flex flex-row justify-center items-center hover:text-orange-200/80 text-white/80 transition-all duration-200`}
       >
-        <div
+          <div
           className={`bg-black/80 h-full px-4 flex flex-row justify-center items-end text-[20px] font-black cursor-default rounded-b-[2px] md:backdrop-blur-none backdrop-blur-md`}
         >
+        <a href={`#hero`}>
           Brand
+        </a>
         </div>
       </div>
       <Menu_ />

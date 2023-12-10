@@ -1,4 +1,4 @@
-import Polygon_ from "./Polygon_";
+import Pill_ from "./Pill_";
 
 interface Study_Props {}
 
@@ -48,7 +48,9 @@ const InnerContent_ = ({}: InnerContent_Props) => {
     <div
       className={`lg:w-[90em] w-full h-full relative flex flex-row justify-center items-center text-black/70`}
     >
-      
+      <Pill_ />
+      <Pill_ />
+      <Pill_ />
     </div>
   );
 };

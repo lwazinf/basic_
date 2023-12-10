@@ -1,7 +1,7 @@
 'use client';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagramSquare, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faInstagramSquare, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 interface Hero_Props {}
@@ -36,7 +36,7 @@ const Social_ = ({}:Social_Props) => {
           className={`h-[27px] w-[27px] text-black/60 hover:text-orange-600 transition-all duration-[400ms] cursor-pointer my-[10px]`}
         />
         <FontAwesomeIcon
-          icon={faInstagramSquare}
+          icon={faInstagram}
           className={`h-[27px] w-[27px] text-black/60 hover:text-orange-600 transition-all duration-[400ms] cursor-pointer my-[10px]`}
         />
       </div>

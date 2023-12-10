@@ -7,7 +7,7 @@ interface Services_Props {}
 const Services_ = ({}: Services_Props) => {
   return (
     <div
-      className={`w-full h-[70vh] flex flex-col justify-center items-center relative`}
+      className={`w-full h-[70vh] flex flex-col justify-center items-center relative mb-[100px]`}
     >
       {/* <Element name="services" className="element"></Element> */}
 

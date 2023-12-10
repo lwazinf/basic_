@@ -96,7 +96,7 @@ const Footer_ = ({}: Footer_Props) => {
                 className={`w-full text-[13px] font-medium text-orange-50 cursor-default italic`}
               >
                 <a href={``} target="_blank">
-                  Ivory Tower Group
+                  BRAND NAME
                 </a>{" "}
                 © Copyright {currentYear}
               </p>

@@ -8,6 +8,7 @@ import Services_ from "@/components/Services_";
 import Study_ from "@/components/Study_";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { RecoilRoot } from "recoil";
+import Quote_ from "@/components/Quote_";
 
 export default function Home() {
   let { scrollYProgress } = useScroll();
@@ -25,6 +26,7 @@ export default function Home() {
           className={`w-full min-h-[100vh] flex flex-col justify-start items-center`}
         >
           <Services_ />
+          <Quote_ />
           <Study_ />
           <CTA_ />
         </div>
