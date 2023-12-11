@@ -48,9 +48,9 @@ const InnerContent_ = ({}: InnerContent_Props) => {
     <div
       className={`lg:w-[90em] w-full h-full relative flex flex-row justify-center items-center text-black/70`}
     >
-      <Pill_ />
-      <Pill_ />
-      <Pill_ />
+      <Pill_ src_={`https://images.pexels.com/photos/6615190/pexels-photo-6615190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`} />
+      <Pill_ src_={`https://images.pexels.com/photos/1116035/pexels-photo-1116035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`} />
+      <Pill_ src_={`https://images.pexels.com/photos/2100681/pexels-photo-2100681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`} />
     </div>
   );
 };
