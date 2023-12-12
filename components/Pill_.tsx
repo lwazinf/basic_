@@ -37,7 +37,7 @@ const Pill_ = ({ src_, content_, topic_ }: Pill_Props) => {
         className={`w-full h-full object-cover transition-all duration-100 scale-110 ${ focus_ ? 'opacity-100' : 'opacity-0'} absolute top-0`}
       />
       <div
-        className={`w-full h-full object-cover flex flex-col justify-end items-center absolute top-0 pb-16 hover:pb-8 transition-all duration-200 ${ focus_ ? 'opacity-0' : 'opacity-100'}`}
+        className={`w-full h-full object-cover flex flex-col justify-start items-center absolute top-0 pt-16 hover:pt-8 transition-all duration-200 ${ focus_ ? 'opacity-0' : 'opacity-100'}`}
         onMouseEnter={() => {
           setFocus_(false)
         }}
