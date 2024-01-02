@@ -30,14 +30,14 @@ const Pill_ = ({ src_, content_, topic_ }: Pill_Props) => {
         className={`w-full h-full object-cover opacity-80 hover:opacity-100 transition-all duration-100`}
       />
       <div
-        className={`w-full h-full object-cover bg-white/5 backdrop-blur-lg transition-all duration-100 absolute top-0`}
+        className={`w-full h-full object-cover bg-black/10 backdrop-blur-lg transition-all duration-100 absolute top-0`}
       />
       <img
         src={`${src_}`}
-        className={`w-full h-full object-cover transition-all duration-100 scale-110 ${ focus_ ? 'opacity-100' : 'opacity-0'} absolute top-0`}
+        className={`w-full h-full object-cover transition-all hover:duration-0 duration-75 scale-110 ${ focus_ ? 'opacity-100' : 'opacity-0'} absolute top-0`}
       />
       <div
-        className={`w-full h-full object-cover flex flex-col justify-start items-center absolute top-0 pt-16 hover:pt-8 transition-all duration-200 ${ focus_ ? 'opacity-0' : 'opacity-100'}`}
+        className={`w-full h-full object-cover flex flex-col justify-start items-center absolute top-0 pt-4 hover:pt-8 transition-all duration-100 ${ focus_ ? 'opacity-0' : 'opacity-100'} text-white`}
         onMouseEnter={() => {
           setFocus_(false)
         }}
